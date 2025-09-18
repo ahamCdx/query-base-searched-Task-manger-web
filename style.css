@@ -1,0 +1,130 @@
+body{
+    background-color: #e7e5e5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+@media screen and (max-width:750px) and (min-width : 350px) {
+    #productContainer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        margin: 20px;
+    }
+    #btn{
+        display: flex;
+        width: 90%;
+        margin: auto;
+        justify-content: center;
+        margin-bottom: 10px
+    }
+    #box{
+        width: 90%;
+        display: flex;
+        margin: auto;
+        gap: 20px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    #box>input{
+        width: 100%;
+    }
+    #box>select{
+        width: 100%;
+    }
+    #status{
+        text-align: center;
+    }
+    #productContainer>div{
+        border: 2px solid white;
+        text-align: center;
+        background-color: white;
+    }
+    #productContainer>div>img{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media screen and (max-width:1024px) and (min-width : 751px) {
+    #productContainer{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        margin: 20px;
+    }
+    #btn{
+        display: flex;
+        width: 90%;
+        margin: auto;
+        justify-content: center;
+        margin-bottom: 10px
+    }
+    #box{
+        width: 90%;
+        display: flex;
+        margin: auto;
+        gap: 20px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    #box>input{
+        width: 100%;
+    }
+    #box>select{
+        width: 100%;
+    }
+    #status{
+        text-align: center;
+    }
+    #productContainer>div{
+        border: 2px solid white;
+        text-align: center;
+        background-color: white;
+    }
+    #productContainer>div>img{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media screen and (max-width:1860px) and (min-width : 1025px) {
+    #productContainer{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 20px;
+        margin: 20px;
+    }
+    #btn{
+        display: flex;
+        width: 90%;
+        margin: auto;
+        justify-content: center;
+        margin-bottom: 20px
+    }
+    #box{
+        width: 90%;
+        display: flex;
+        margin: auto;
+        gap: 20px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    #box>input{
+        width: 100%;
+    }
+    #box>select{
+        width: 100%;
+    }
+    #status{
+        text-align: center;
+    }
+    #productContainer>div{
+        border: 2px solid white;
+        text-align: center;
+        background-color: white;
+    }
+    #productContainer>div>img{
+        width: 200px;
+        height: 200px;
+    }
+}

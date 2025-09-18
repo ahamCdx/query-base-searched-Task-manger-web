@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body onload="fetchProduct()">
+    <h1>Product Search</h1>
+    <div id="box">
+        <select id="category">
+            <option value="all">Select Category</option>
+            <option value="electronics">Electronics</option>
+            <option value="jewelery">Jewelery</option>
+            <option value="men's clothing">Mens</option>
+            <option value="women's clothing">Women</option>
+        </select>
+        <input type="number" id="min-price" placeholder="Min Price" min="0">
+        <input type="number" id="max-price" placeholder="Max Price" min="0">
+    </div>
+    <div id="btn"> <button id="search-btn" onclick="fetchProduct()">Search</button></div>
+    <div id="status"></div>
+    <div id="productContainer"></div>
+</body>
+</html>
+
+<script src="./index.js"></script>
